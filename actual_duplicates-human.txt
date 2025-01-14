@@ -1,0 +1,62 @@
+HCP3EXT-7249 linked as duplicate of HCP3EXT-7045 -> NO, same root cause, different manefestations 7249 is about camera overlay dissapear too early, 7045 about it not shown at all 
+HCP3EXT-7205 linked as duplicate of HCP3EXT-7098 -> NO, same root cause, but not the observation. 7205 about POI on route (Horizon), 7098 is about speed cams
+HCP3EXT-7162 linked as duplicate of HCP3EXT-7113 -> NO, warning is the same, but 7162 is about active route, 7113 is about alternative route
+HCP3EXT-7158 linked as duplicate of HCP3EXT-7045 -> NO, 7158 speed camera not displayed at all, 7045 is not displayed when waypoint is in the middle of speed camera zone, same as 7249
+HCP3EXT-7121 linked as duplicate of HCP3EXT-6767 -> YES, despite that 7121 is about NIP not updated and 6767 about NIP not shown
+HCP3EXT-6767 linked as duplicate of HCP3EXT-7121 -> * YES (reversed link)
+HCP3EXT-7113 linked as duplicate of HCP3EXT-7162 -> * NO
+HCP3EXT-7106 linked as duplicate of HCP3EXT-7036 -> YES, absolute duplicate by use case and description
+HCP3EXT-7099 linked as duplicate of HCP3EXT-7047 -> YES, same warning, a bit different use case, 7047 related to roundabout
+HCP3EXT-7098 linked as duplicate of HCP3EXT-6960 -> YES, absolute duplicate by use case and description
+HCP3EXT-7098 linked as duplicate of HCP3EXT-7205
+HCP3EXT-7097 linked as duplicate of HCP3EXT-7039
+HCP3EXT-7086 linked as duplicate of HCP3EXT-6195
+HCP3EXT-6195 linked as duplicate of HCP3EXT-7086
+HCP3EXT-7075 linked as duplicate of HCP3EXT-7044
+HCP3EXT-7067 linked as duplicate of HCP3EXT-6867
+HCP3EXT-7057 linked as duplicate of HCP3EXT-6938
+HCP3EXT-7051 linked as duplicate of HCP3EXT-7045
+HCP3EXT-7047 linked as duplicate of HCP3EXT-7099
+HCP3EXT-7045 linked as duplicate of HCP3EXT-7158
+HCP3EXT-7045 linked as duplicate of HCP3EXT-7051
+HCP3EXT-7045 linked as duplicate of HCP3EXT-7249 *
+HCP3EXT-7044 linked as duplicate of HCP3EXT-7075
+HCP3EXT-7039 linked as duplicate of HCP3EXT-7097
+HCP3EXT-7036 linked as duplicate of HCP3EXT-7106
+HCP3EXT-7021 linked as duplicate of HCP3EXT-6933
+HCP3EXT-7019 linked as duplicate of HCP3EXT-6568
+HCP3EXT-6568 linked as duplicate of HCP3EXT-7019
+HCP3EXT-7018 linked as duplicate of HCP3EXT-6995
+HCP3EXT-6995 linked as duplicate of HCP3EXT-7018
+HCP3EXT-6985 linked as duplicate of HCP3EXT-6846
+HCP3EXT-6960 linked as duplicate of HCP3EXT-7098
+HCP3EXT-6938 linked as duplicate of HCP3EXT-7057
+HCP3EXT-6933 linked as duplicate of HCP3EXT-7021
+HCP3EXT-6926 linked as duplicate of HCP3EXT-6747
+HCP3EXT-6747 linked as duplicate of HCP3EXT-6926
+HCP3EXT-6920 linked as duplicate of HCP3EXT-6915
+HCP3EXT-6915 linked as duplicate of HCP3EXT-6920
+HCP3EXT-6891 linked as duplicate of HCP3EXT-6888
+HCP3EXT-6888 linked as duplicate of HCP3EXT-6623
+HCP3EXT-6888 linked as duplicate of HCP3EXT-6891
+HCP3EXT-6885 linked as duplicate of HCP3EXT-6509
+HCP3EXT-6509 linked as duplicate of HCP3EXT-6885
+HCP3EXT-6880 linked as duplicate of HCP3EXT-5564
+HCP3EXT-5564 linked as duplicate of HCP3EXT-6880
+HCP3EXT-6867 linked as duplicate of HCP3EXT-7067
+HCP3EXT-6846 linked as duplicate of HCP3EXT-6985
+HCP3EXT-6796 linked as duplicate of HCP3EXT-6783
+HCP3EXT-6783 linked as duplicate of HCP3EXT-6796
+HCP3EXT-6781 linked as duplicate of HCP3EXT-6362
+HCP3EXT-6362 linked as duplicate of HCP3EXT-6781
+HCP3EXT-6362 linked as duplicate of HCP3EXT-6371
+HCP3EXT-6371 linked as duplicate of HCP3EXT-6362
+HCP3EXT-6780 linked as duplicate of HCP3EXT-6623
+HCP3EXT-6623 linked as duplicate of HCP3EXT-6888
+HCP3EXT-6623 linked as duplicate of HCP3EXT-6780
+HCP3EXT-6179 linked as duplicate of HCP3EXT-6178
+HCP3EXT-6178 linked as duplicate of HCP3EXT-6529
+HCP3EXT-6529 linked as duplicate of HCP3EXT-6178
+HCP3EXT-6529 linked as duplicate of HCP3EXT-6350
+HCP3EXT-6350 linked as duplicate of HCP3EXT-6529
+HCP3EXT-6178 linked as duplicate of HCP3EXT-6179 
