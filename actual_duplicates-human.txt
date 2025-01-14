@@ -6,31 +6,32 @@ HCP3EXT-7121 linked as duplicate of HCP3EXT-6767 -> YES, despite that 7121 is ab
 HCP3EXT-6767 linked as duplicate of HCP3EXT-7121 -> * YES (reversed link)
 HCP3EXT-7113 linked as duplicate of HCP3EXT-7162 -> * NO
 HCP3EXT-7106 linked as duplicate of HCP3EXT-7036 -> YES, absolute duplicate by use case and description
+HCP3EXT-7036 linked as duplicate of HCP3EXT-7106 -> * YES (reversed link)
 HCP3EXT-7099 linked as duplicate of HCP3EXT-7047 -> YES, same warning, a bit different use case, 7047 related to roundabout
+HCP3EXT-7047 linked as duplicate of HCP3EXT-7099 -> * YES (reversed link)
 HCP3EXT-7098 linked as duplicate of HCP3EXT-6960 -> YES, absolute duplicate by use case and description
-HCP3EXT-7098 linked as duplicate of HCP3EXT-7205
-HCP3EXT-7097 linked as duplicate of HCP3EXT-7039
-HCP3EXT-7086 linked as duplicate of HCP3EXT-6195
-HCP3EXT-6195 linked as duplicate of HCP3EXT-7086
+HCP3EXT-6960 linked as duplicate of HCP3EXT-7098 -> * YES (reversed link)
+HCP3EXT-7098 linked as duplicate of HCP3EXT-7205 -> * NO
+HCP3EXT-7097 linked as duplicate of HCP3EXT-7039 -> YES, absolute duplicate by use case and description
+HCP3EXT-7039 linked as duplicate of HCP3EXT-7097 -> * YES (reversed link)
+HCP3EXT-7086 linked as duplicate of HCP3EXT-6195 -> NO, same observation but different route cause. 7086 is a map issue whereas 6195 is fixed on TT side
+HCP3EXT-6195 linked as duplicate of HCP3EXT-7086 -> * NO
 HCP3EXT-7075 linked as duplicate of HCP3EXT-7044
+HCP3EXT-7044 linked as duplicate of HCP3EXT-7075
 HCP3EXT-7067 linked as duplicate of HCP3EXT-6867
+HCP3EXT-6867 linked as duplicate of HCP3EXT-7067
 HCP3EXT-7057 linked as duplicate of HCP3EXT-6938
+HCP3EXT-6938 linked as duplicate of HCP3EXT-7057
 HCP3EXT-7051 linked as duplicate of HCP3EXT-7045
-HCP3EXT-7047 linked as duplicate of HCP3EXT-7099
 HCP3EXT-7045 linked as duplicate of HCP3EXT-7158
 HCP3EXT-7045 linked as duplicate of HCP3EXT-7051
 HCP3EXT-7045 linked as duplicate of HCP3EXT-7249 *
-HCP3EXT-7044 linked as duplicate of HCP3EXT-7075
-HCP3EXT-7039 linked as duplicate of HCP3EXT-7097
-HCP3EXT-7036 linked as duplicate of HCP3EXT-7106
 HCP3EXT-7021 linked as duplicate of HCP3EXT-6933
 HCP3EXT-7019 linked as duplicate of HCP3EXT-6568
 HCP3EXT-6568 linked as duplicate of HCP3EXT-7019
 HCP3EXT-7018 linked as duplicate of HCP3EXT-6995
 HCP3EXT-6995 linked as duplicate of HCP3EXT-7018
 HCP3EXT-6985 linked as duplicate of HCP3EXT-6846
-HCP3EXT-6960 linked as duplicate of HCP3EXT-7098
-HCP3EXT-6938 linked as duplicate of HCP3EXT-7057
 HCP3EXT-6933 linked as duplicate of HCP3EXT-7021
 HCP3EXT-6926 linked as duplicate of HCP3EXT-6747
 HCP3EXT-6747 linked as duplicate of HCP3EXT-6926
@@ -43,7 +44,6 @@ HCP3EXT-6885 linked as duplicate of HCP3EXT-6509
 HCP3EXT-6509 linked as duplicate of HCP3EXT-6885
 HCP3EXT-6880 linked as duplicate of HCP3EXT-5564
 HCP3EXT-5564 linked as duplicate of HCP3EXT-6880
-HCP3EXT-6867 linked as duplicate of HCP3EXT-7067
 HCP3EXT-6846 linked as duplicate of HCP3EXT-6985
 HCP3EXT-6796 linked as duplicate of HCP3EXT-6783
 HCP3EXT-6783 linked as duplicate of HCP3EXT-6796
