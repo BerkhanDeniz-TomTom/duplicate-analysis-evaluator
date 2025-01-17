@@ -1,62 +1,62 @@
 HCP3EXT-7249 linked as duplicate of HCP3EXT-7045 -> NO, same root cause, different manefestations 7249 is about camera overlay dissapear too early, 7045 about it not shown at all 
+HCP3EXT-7045 linked as duplicate of HCP3EXT-7249 -> * NO (reversed link)
 HCP3EXT-7205 linked as duplicate of HCP3EXT-7098 -> NO, same root cause, but not the observation. 7205 about POI on route (Horizon), 7098 is about speed cams
 HCP3EXT-7162 linked as duplicate of HCP3EXT-7113 -> NO, warning is the same, but 7162 is about active route, 7113 is about alternative route
 HCP3EXT-7158 linked as duplicate of HCP3EXT-7045 -> NO, 7158 speed camera not displayed at all, 7045 is not displayed when waypoint is in the middle of speed camera zone, same as 7249
+HCP3EXT-7045 linked as duplicate of HCP3EXT-7158 -> * NO (reversed link)
 HCP3EXT-7121 linked as duplicate of HCP3EXT-6767 -> YES, despite that 7121 is about NIP not updated and 6767 about NIP not shown
 HCP3EXT-6767 linked as duplicate of HCP3EXT-7121 -> * YES (reversed link)
-HCP3EXT-7113 linked as duplicate of HCP3EXT-7162 -> * NO
+HCP3EXT-7113 linked as duplicate of HCP3EXT-7162 -> * NO (reversed link)
 HCP3EXT-7106 linked as duplicate of HCP3EXT-7036 -> YES, absolute duplicate by use case and description
 HCP3EXT-7036 linked as duplicate of HCP3EXT-7106 -> * YES (reversed link)
 HCP3EXT-7099 linked as duplicate of HCP3EXT-7047 -> YES, same warning, a bit different use case, 7047 related to roundabout
 HCP3EXT-7047 linked as duplicate of HCP3EXT-7099 -> * YES (reversed link)
 HCP3EXT-7098 linked as duplicate of HCP3EXT-6960 -> YES, absolute duplicate by use case and description
 HCP3EXT-6960 linked as duplicate of HCP3EXT-7098 -> * YES (reversed link)
-HCP3EXT-7098 linked as duplicate of HCP3EXT-7205 -> * NO
+HCP3EXT-7098 linked as duplicate of HCP3EXT-7205 -> * NO (reversed link)
 HCP3EXT-7097 linked as duplicate of HCP3EXT-7039 -> YES, absolute duplicate by use case and description
 HCP3EXT-7039 linked as duplicate of HCP3EXT-7097 -> * YES (reversed link)
 HCP3EXT-7086 linked as duplicate of HCP3EXT-6195 -> NO, same observation but different route cause. 7086 is a map issue whereas 6195 is fixed on TT side
-HCP3EXT-6195 linked as duplicate of HCP3EXT-7086 -> * NO
-HCP3EXT-7075 linked as duplicate of HCP3EXT-7044
-HCP3EXT-7044 linked as duplicate of HCP3EXT-7075
-HCP3EXT-7067 linked as duplicate of HCP3EXT-6867
-HCP3EXT-6867 linked as duplicate of HCP3EXT-7067
-HCP3EXT-7057 linked as duplicate of HCP3EXT-6938
-HCP3EXT-6938 linked as duplicate of HCP3EXT-7057
-HCP3EXT-7051 linked as duplicate of HCP3EXT-7045
-HCP3EXT-7045 linked as duplicate of HCP3EXT-7158
-HCP3EXT-7045 linked as duplicate of HCP3EXT-7051
-HCP3EXT-7045 linked as duplicate of HCP3EXT-7249 *
-HCP3EXT-7021 linked as duplicate of HCP3EXT-6933
-HCP3EXT-7019 linked as duplicate of HCP3EXT-6568
-HCP3EXT-6568 linked as duplicate of HCP3EXT-7019
-HCP3EXT-7018 linked as duplicate of HCP3EXT-6995
-HCP3EXT-6995 linked as duplicate of HCP3EXT-7018
-HCP3EXT-6985 linked as duplicate of HCP3EXT-6846
-HCP3EXT-6933 linked as duplicate of HCP3EXT-7021
-HCP3EXT-6926 linked as duplicate of HCP3EXT-6747
-HCP3EXT-6747 linked as duplicate of HCP3EXT-6926
-HCP3EXT-6920 linked as duplicate of HCP3EXT-6915
-HCP3EXT-6915 linked as duplicate of HCP3EXT-6920
-HCP3EXT-6891 linked as duplicate of HCP3EXT-6888
-HCP3EXT-6888 linked as duplicate of HCP3EXT-6623
-HCP3EXT-6888 linked as duplicate of HCP3EXT-6891
-HCP3EXT-6885 linked as duplicate of HCP3EXT-6509
-HCP3EXT-6509 linked as duplicate of HCP3EXT-6885
-HCP3EXT-6880 linked as duplicate of HCP3EXT-5564
-HCP3EXT-5564 linked as duplicate of HCP3EXT-6880
-HCP3EXT-6846 linked as duplicate of HCP3EXT-6985
-HCP3EXT-6796 linked as duplicate of HCP3EXT-6783
-HCP3EXT-6783 linked as duplicate of HCP3EXT-6796
-HCP3EXT-6781 linked as duplicate of HCP3EXT-6362
-HCP3EXT-6362 linked as duplicate of HCP3EXT-6781
-HCP3EXT-6362 linked as duplicate of HCP3EXT-6371
-HCP3EXT-6371 linked as duplicate of HCP3EXT-6362
-HCP3EXT-6780 linked as duplicate of HCP3EXT-6623
-HCP3EXT-6623 linked as duplicate of HCP3EXT-6888
-HCP3EXT-6623 linked as duplicate of HCP3EXT-6780
-HCP3EXT-6179 linked as duplicate of HCP3EXT-6178
-HCP3EXT-6178 linked as duplicate of HCP3EXT-6529
-HCP3EXT-6529 linked as duplicate of HCP3EXT-6178
-HCP3EXT-6529 linked as duplicate of HCP3EXT-6350
-HCP3EXT-6350 linked as duplicate of HCP3EXT-6529
-HCP3EXT-6178 linked as duplicate of HCP3EXT-6179 
+HCP3EXT-6195 linked as duplicate of HCP3EXT-7086 -> * NO (reversed link)    
+HCP3EXT-7075 linked as duplicate of HCP3EXT-7044 -> NO, same root cause, but different observation. 7075 is about bus lane cam i.s.o redlight cam, 7044 is about speed cam not being provided
+HCP3EXT-7044 linked as duplicate of HCP3EXT-7075 -> * NO (reversed link)
+HCP3EXT-7067 linked as duplicate of HCP3EXT-6867 -> NO, both is about unexpected CS behavior, but different use case. 7067 is about a CS causing extra detaour, 6867 is about about a particular CS not being added as a CS
+HCP3EXT-6867 linked as duplicate of HCP3EXT-7067 -> * NO (reversed link)
+HCP3EXT-7057 linked as duplicate of HCP3EXT-6938 -> YES, same observation and same root cause. both is about no CS infor when CS is the final destination
+HCP3EXT-6938 linked as duplicate of HCP3EXT-7057 -> * YES (reversed link)
+HCP3EXT-7051 linked as duplicate of HCP3EXT-7045 -> NO, same root cause, but not the observation. 7051 is about overlay being not shown after deviating from route, 7045 is about overlay not shown when waypoint is in the middle of speed camera zone
+HCP3EXT-7045 linked as duplicate of HCP3EXT-7051 -> * NO (reversed link)
+HCP3EXT-7021 linked as duplicate of HCP3EXT-6933 -> NO, same root cause but not the observation. 7021 is about route carpet not following the road geometry, 6933 is about missing recommendations for a complete laneGroup.
+HCP3EXT-6933 linked as duplicate of HCP3EXT-7021 -> * NO (reversed link)
+HCP3EXT-7019 linked as duplicate of HCP3EXT-6568 -> NO, same root cause but not the exact observation. Both is about faster alternative not being applied automatically, but 7019 also has faster route becoming longer route suddenly
+HCP3EXT-6568 linked as duplicate of HCP3EXT-7019 -> * NO (reversed link)
+HCP3EXT-7018 linked as duplicate of HCP3EXT-6995 -> NO, same root cause but not the observation. 7018 is about a flickering message from the route planner, 6995 is about alternative route not being recommended.
+HCP3EXT-6995 linked as duplicate of HCP3EXT-7018 -> * NO (reversed link)
+HCP3EXT-6985 linked as duplicate of HCP3EXT-6846 -> NO, same root cause but not the observation. 6985 is about SOC labels on the map are not updated quick enough, 6846 is about route-based range not changing after the customer action.
+HCP3EXT-6846 linked as duplicate of HCP3EXT-6985 -> * NO (reversed link)
+HCP3EXT-6926 linked as duplicate of HCP3EXT-6747 -> YES, same observation and same root cause. both is about alternative route not being chosen automatically
+HCP3EXT-6747 linked as duplicate of HCP3EXT-6926 -> * YES (reversed link)
+HCP3EXT-6920 linked as duplicate of HCP3EXT-6915 -> NO, same root cause but not the observation. 6920 is about a crash after opening search, 6915 is about a crash after starting route guidance
+HCP3EXT-6915 linked as duplicate of HCP3EXT-6920 -> * NO (reversed link)
+HCP3EXT-6891 linked as duplicate of HCP3EXT-6888 -> NO, same root cause but not the observation. 6891 is about scale not being adapted, 6888 is about next maneauver not box being empty
+HCP3EXT-6888 linked as duplicate of HCP3EXT-6891 -> * NO (reversed link)
+HCP3EXT-6888 linked as duplicate of HCP3EXT-6623 -> YES, same observation and same root cause. both is about next maneauver not box being empty
+HCP3EXT-6623 linked as duplicate of HCP3EXT-6888 -> * YES (reversed link)
+HCP3EXT-6623 linked as duplicate of HCP3EXT-6780 -> YES, same observation and same root cause. both is about next maneauver not box being empty
+HCP3EXT-6780 linked as duplicate of HCP3EXT-6623 -> * YES (reversed link)
+HCP3EXT-6885 linked as duplicate of HCP3EXT-6509 -> NO, same observation but different root cause. 6885 is about unit settings not being persisted, 6509 is not about settings being persisted.
+HCP3EXT-6509 linked as duplicate of HCP3EXT-6885 -> * NO (reversed link)
+HCP3EXT-6880 linked as duplicate of HCP3EXT-5564 -> NO, not the same observation.
+HCP3EXT-5564 linked as duplicate of HCP3EXT-6880 -> * NO (reversed link)
+HCP3EXT-6796 linked as duplicate of HCP3EXT-6783 -> YES, same observation and same root cause. both is about sectional speedcam endpoint icon being shown after passing.
+HCP3EXT-6783 linked as duplicate of HCP3EXT-6796 -> * YES (reversed link)
+HCP3EXT-6781 linked as duplicate of HCP3EXT-6362 -> NO, same crash but not the same preconditions.
+HCP3EXT-6362 linked as duplicate of HCP3EXT-6781 -> * NO (reversed link)
+HCP3EXT-6362 linked as duplicate of HCP3EXT-6371 -> NO, same crash but not the same preconditions.
+HCP3EXT-6371 linked as duplicate of HCP3EXT-6362 -> * NO (reversed link)
+HCP3EXT-6179 linked as duplicate of HCP3EXT-6178 -> YES, same observation and same root cause. both is about call of action timing being too early.
+HCP3EXT-6178 linked as duplicate of HCP3EXT-6179 -> * YES (reversed link)
+HCP3EXT-6178 linked as duplicate of HCP3EXT-6529 -> NO, same root cause but slight different expectations.
+HCP3EXT-6529 linked as duplicate of HCP3EXT-6178 -> * NO (reversed link)
+HCP3EXT-6529 linked as duplicate of HCP3EXT-6350 -> NO, literally same tickets. No point to check.
+HCP3EXT-6350 linked as duplicate of HCP3EXT-6529 -> * NO (reversed link)
