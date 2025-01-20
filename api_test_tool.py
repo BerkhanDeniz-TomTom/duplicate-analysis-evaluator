@@ -4,7 +4,7 @@ import argparse
 from datetime import datetime
 
 def query_api(issue_key):
-    url = "http://10.128.4.180:8200/query/"
+    url = "http://10.128.4.180:8201/query/"
     payload = {"issue_key": issue_key}
     headers = {"Content-Type": "application/json"}
     
@@ -31,12 +31,17 @@ def query_api(issue_key):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input-file', help='File containing issue keys')
+    parser.add_argument('--input-file', help='File containing issue links')
     args = parser.parse_args()
 
-    # Read issue keys from file
+    # Read issue keys from file (taking only the first issue key from each line)
+    issue_keys = []
     with open(args.input_file, 'r') as f:
-        issue_keys = [line.strip() for line in f if line.strip()]
+        for line in f:
+            if 'linked as duplicate of' in line:
+                # Extract first issue key from the line
+                first_key = line.split(' linked as duplicate of ')[0].strip()
+                issue_keys.append(first_key)
     
     # Process each issue key
     results = {}
