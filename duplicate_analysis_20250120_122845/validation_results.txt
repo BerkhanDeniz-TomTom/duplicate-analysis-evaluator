@@ -1,0 +1,31 @@
+Validation Results:
+=================
+
+HCP3EXT-7121 -> HCP3EXT-6767: NOT FOUND in detected duplicates
+HCP3EXT-6767 -> HCP3EXT-7121: NOT FOUND in detected duplicates
+HCP3EXT-7106 -> HCP3EXT-7036: NOT FOUND in detected duplicates
+HCP3EXT-7036 -> HCP3EXT-7106: NOT FOUND in detected duplicates
+HCP3EXT-7099 -> HCP3EXT-7047: NOT FOUND in detected duplicates
+HCP3EXT-7047 -> HCP3EXT-7099: NOT FOUND in detected duplicates
+HCP3EXT-7098 -> HCP3EXT-6960: NOT FOUND in detected duplicates
+HCP3EXT-6960 -> HCP3EXT-7098: NOT FOUND in detected duplicates
+HCP3EXT-7098 -> HCP3EXT-7205: NOT FOUND in detected duplicates
+HCP3EXT-7097 -> HCP3EXT-7039: NOT FOUND in detected duplicates
+HCP3EXT-7039 -> HCP3EXT-7097: FOUND (match type: d, score: 0.73)
+HCP3EXT-7057 -> HCP3EXT-6938: FOUND (match type: d, score: 0.75)
+HCP3EXT-6938 -> HCP3EXT-7057: FOUND (match type: d, score: 0.74)
+HCP3EXT-6926 -> HCP3EXT-6747: NOT FOUND in detected duplicates
+HCP3EXT-6747 -> HCP3EXT-6926: NOT FOUND in detected duplicates
+HCP3EXT-6888 -> HCP3EXT-6623: NOT FOUND in detected duplicates
+HCP3EXT-6623 -> HCP3EXT-6888: NOT FOUND in detected duplicates
+HCP3EXT-6623 -> HCP3EXT-6780: FOUND (match type: d, score: 0.68)
+HCP3EXT-6780 -> HCP3EXT-6623: NOT FOUND in detected duplicates
+HCP3EXT-6796 -> HCP3EXT-6783: FOUND (match type: d, score: 0.76)
+HCP3EXT-6783 -> HCP3EXT-6796: FOUND (match type: d, score: 0.76)
+HCP3EXT-6179 -> HCP3EXT-6178: NOT FOUND in detected duplicates
+HCP3EXT-6178 -> HCP3EXT-6179: NOT FOUND in detected duplicates
+
+Summary:
+Found: 6 out of 23 duplicates
+Success Rate: 26.1%
+Average Score of Found Duplicates: 0.74
