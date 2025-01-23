@@ -29,19 +29,43 @@ def query_api(issue_key):
             "error": str(e)
         }
 
+def get_issue_keys_from_file(filename, relationship_text):
+    """Extract issue keys from file based on relationship text."""
+    issue_keys = set()  # Using set to avoid duplicates
+    with open(filename, 'r') as f:
+        for line in f:
+            if relationship_text in line:
+                parts = line.split(relationship_text)
+                source = parts[0].strip()
+                target = parts[1].strip().rstrip(',')
+                issue_keys.add(source)
+                issue_keys.add(target)
+    return issue_keys
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input-file', help='File containing issue links')
+    parser.add_argument('--duplicates', help='File containing known duplicate links')
+    parser.add_argument('--non-duplicates', help='File containing known non-duplicate pairs')
+    parser.add_argument('--output-file', required=True, help='Output JSON file for results')
     args = parser.parse_args()
 
-    # Read issue keys from file (taking only the first issue key from each line)
-    issue_keys = []
-    with open(args.input_file, 'r') as f:
-        for line in f:
-            if 'linked as duplicate of' in line:
-                # Extract first issue key from the line
-                first_key = line.split(' linked as duplicate of ')[0].strip()
-                issue_keys.append(first_key)
+    # Collect all unique issue keys from both files
+    all_issue_keys = set()
+
+    if args.duplicates:
+        duplicate_keys = get_issue_keys_from_file(args.duplicates, 'linked as duplicate of')
+        all_issue_keys.update(duplicate_keys)
+
+    if args.non_duplicates:
+        non_duplicate_keys = get_issue_keys_from_file(args.non_duplicates, 'confirmed not duplicate of')
+        all_issue_keys.update(non_duplicate_keys)
+
+    # Convert set to sorted list for consistent processing
+    issue_keys = sorted(all_issue_keys)
+    
+    if not issue_keys:
+        print("No issue keys found in input files!")
+        return
     
     # Process each issue key
     results = {}
@@ -51,12 +75,10 @@ def main():
         results[issue_key] = result
     
     # Write results to file
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = f"results_{timestamp}.json"
-    with open(output_file, 'w') as f:
+    with open(args.output_file, 'w') as f:
         json.dump(results, f, indent=2, sort_keys=True)
     
-    print(f"Results written to {output_file}")
+    print(f"Results written to {args.output_file}")
 
 if __name__ == '__main__':
     main()

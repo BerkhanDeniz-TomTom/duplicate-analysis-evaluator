@@ -1,0 +1,50 @@
+Validation Results:
+=================
+
+Checking Known Duplicates:
+
+HCP3EXT-7121 -> HCP3EXT-6767: NOT FOUND in detected duplicates
+HCP3EXT-6767 -> HCP3EXT-7121: NOT FOUND in detected duplicates
+HCP3EXT-7106 -> HCP3EXT-7036: NOT FOUND in detected duplicates
+HCP3EXT-7036 -> HCP3EXT-7106: NOT FOUND in detected duplicates
+HCP3EXT-7099 -> HCP3EXT-7047: NOT FOUND in detected duplicates
+HCP3EXT-7047 -> HCP3EXT-7099: NOT FOUND in detected duplicates
+HCP3EXT-7098 -> HCP3EXT-6960: NOT FOUND in detected duplicates
+HCP3EXT-6960 -> HCP3EXT-7098: NOT FOUND in detected duplicates
+HCP3EXT-7098 -> HCP3EXT-7205: NOT FOUND in detected duplicates
+HCP3EXT-7097 -> HCP3EXT-7039: NOT FOUND in detected duplicates
+HCP3EXT-7039 -> HCP3EXT-7097: NOT FOUND in detected duplicates
+HCP3EXT-7057 -> HCP3EXT-6938: FOUND (match type: d, score: 0.71)
+HCP3EXT-6938 -> HCP3EXT-7057: FOUND (match type: d, score: 0.70)
+HCP3EXT-6926 -> HCP3EXT-6747: NOT FOUND in detected duplicates
+HCP3EXT-6747 -> HCP3EXT-6926: NOT FOUND in detected duplicates
+HCP3EXT-6888 -> HCP3EXT-6623: NOT FOUND in detected duplicates
+HCP3EXT-6623 -> HCP3EXT-6888: NOT FOUND in detected duplicates
+HCP3EXT-6623 -> HCP3EXT-6780: FOUND (match type: d, score: 0.69)
+HCP3EXT-6780 -> HCP3EXT-6623: FOUND (match type: d, score: 0.69)
+HCP3EXT-6796 -> HCP3EXT-6783: FOUND (match type: d, score: 0.83)
+HCP3EXT-6783 -> HCP3EXT-6796: FOUND (match type: d, score: 0.83)
+HCP3EXT-6179 -> HCP3EXT-6178: NOT FOUND in detected duplicates
+HCP3EXT-6178 -> HCP3EXT-6179: NOT FOUND in detected duplicates
+
+Checking Known Non-Duplicates:
+
+HCP3EXT-7269 -> HCP3EXT-7268: CORRECTLY NOT DETECTED
+HCP3EXT-7268 -> HCP3EXT-7190: CORRECTLY NOT DETECTED
+HCP3EXT-7265 -> HCP3EXT-6702: CORRECTLY NOT DETECTED
+HCP3EXT-7262 -> HCP3EXT-6795: CORRECTLY NOT DETECTED
+HCP3EXT-7259 -> HCP3EXT-6862: CORRECTLY NOT DETECTED
+HCP3EXT-7252 -> HCP3EXT-6875: CORRECTLY NOT DETECTED
+HCP3EXT-7258 -> HCP3EXT-7085: CORRECTLY NOT DETECTED
+HCP3EXT-7251 -> HCP3EXT-7109: CORRECTLY NOT DETECTED
+HCP3EXT-7245 -> HCP3EXT-7014: CORRECTLY NOT DETECTED
+
+Summary:
+True Positives (correctly detected duplicates): 6
+False Negatives (missed duplicates): 17
+True Negatives (correctly detected non-duplicates): 9
+False Positives (incorrectly flagged as duplicates): 0
+
+Metrics:
+Success Rate: 26.1%
+Average Score of Found Duplicates: 0.74
